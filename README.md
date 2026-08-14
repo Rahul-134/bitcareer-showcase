@@ -35,8 +35,8 @@ This repository showcases the project's features, design, and scope — without 
 
 ### Onboarding & Profile
 - **Guided multi-step onboarding** — personal information, education, technical skills, career goals, and a final review step before the profile goes live.
-- **Resume upload & parsing** — upload a resume and have its content extracted into a structured skill profile.
-- **GitHub profile analysis** — connect a GitHub account so real repositories and activity count as evidence of skill.
+- **Resume upload & parsing** — upload a resume and have its content extracted into a structured skill profile, with an ATS compatibility score and a detected-skills breakdown.
+- **GitHub profile analysis** — connect a GitHub account so real repositories and activity count as evidence of skill, including a tech-stack breakdown and per-repository insights.
 - **AI skill analysis** — BitCareer combines resume, GitHub, and self-reported skills into a baseline competency profile and starting rank, presented back to the user for review.
 
 ### Personalised Learning
@@ -61,7 +61,7 @@ This repository showcases the project's features, design, and scope — without 
 - **Assessment history** — every attempt is stored and reviewable, with rubrics and per-question breakdowns.
 
 ### AI Mock Interviews
-- **Configurable sessions** — pick the target role and difficulty before starting.
+- **Configurable sessions** — pick the target role, interview style (**technical, system design, behavioural, or mixed**), duration, and difficulty before starting.
 - **Adaptive questioning** — the interviewer follows up based on how the previous answer went, focusing on demonstrated weak spots.
 - **Voice-enabled** — push-to-talk answering with spoken interviewer questions, alongside typed responses.
 - **Coding rounds** — a full code editor inside the interview for hands-on technical questions.
@@ -75,6 +75,7 @@ This repository showcases the project's features, design, and scope — without 
 - **Executive analysis** — an AI-written summary of where the user stands and what to fix next.
 - **Personalised recommendations** — next-best actions surfaced directly on the dashboard.
 - **Learning journey & career timeline** — a running history of completed topics, assessments, and milestones.
+- **Streaks & weekly goals** — a daily learning streak and a weekly assessment target to keep momentum up.
 - **Resume & GitHub overviews** — the evidence behind the scores, kept visible.
 
 ### Platform
@@ -100,63 +101,47 @@ This repository showcases the project's features, design, and scope — without 
 
 ## Screenshots
 
-> Screenshots are being added — drop the captures into `docs/screenshots/` to populate this section.
-
-<!--
-### Landing Page
-
-<p align="center">
-  <img src="docs/screenshots/landing.png" alt="BitCareer landing page" width="900"/>
-</p>
-
----
-
-### Onboarding
-
-<p align="center">
-  <img src="docs/screenshots/onboarding.png" alt="BitCareer multi-step onboarding wizard" width="900"/>
-</p>
-
----
-
 ### Career Dashboard
 
+Career readiness score, resume and GitHub analysis, skill intelligence with earned ranks, and an AI-written career analysis.
+
 <p align="center">
-  <img src="docs/screenshots/dashboard.png" alt="BitCareer career readiness dashboard" width="900"/>
+  <img src="docs/screenshots/dashboard.png" alt="BitCareer career readiness dashboard showing readiness score, resume ATS analysis, GitHub overview, skill intelligence ranks, and executive career analysis" width="900"/>
 </p>
 
 ---
 
 ### Learning Workspace
 
+The roadmap sidebar, the study notebook, and the code sandbox in one place — plus learning performance and AI insights below.
+
 <p align="center">
-  <img src="docs/screenshots/learning-workspace.png" alt="BitCareer dual-pane learning workspace with notes and code sandbox" width="900"/>
+  <img src="docs/screenshots/learning-workspace.png" alt="BitCareer learning workspace with roadmap sidebar, block-based study notebook, code sandbox tab, learning performance stats, and AI learning insights" width="900"/>
 </p>
 
 ---
 
-### Assessment
+### AI Interview Dashboard
+
+Configure a session — style, duration, difficulty, voice — then review past sessions, score trends, and core competencies.
 
 <p align="center">
-  <img src="docs/screenshots/assessment.png" alt="BitCareer coding assessment with test results" width="900"/>
+  <img src="docs/screenshots/interview-dashboard.png" alt="BitCareer AI interview dashboard with session configuration, recent sessions table, score trend chart, and core competency breakdown" width="900"/>
 </p>
 
 ---
 
-### AI Mock Interview
+### Live Interview Session
 
 <p align="center">
-  <img src="docs/screenshots/interview.png" alt="BitCareer AI mock interview session" width="900"/>
+  <img src="docs/bitbuddy.png" alt="BitCareer AI interviewer avatar" width="130"/>
 </p>
 
----
-
-### Interview Report
+A focused, distraction-free interview room — speak your answer or type it, with the option to switch to the code editor.
 
 <p align="center">
-  <img src="docs/screenshots/interview-report.png" alt="BitCareer interview report with competency scores" width="900"/>
+  <img src="docs/screenshots/interview-session.png" alt="BitCareer live AI mock interview session with the interviewer avatar, spoken question, and push-to-talk response bar" width="900"/>
 </p>
--->
 
 ## Project Highlights
 
