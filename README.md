@@ -50,7 +50,7 @@ This repository showcases the project's features, design, and scope — without 
 - **Notebook sidebar** — multiple notebooks per subtopic, pinning, and quick switching between them.
 - **Interactive code sandbox** — write and run **Python** and **SQL** directly in the browser, with results, tables, and errors rendered inline.
 - **Save your experiments** — send any sandbox run straight into your notes as a formatted code block, so working code never gets lost.
-- **BitBuddy** — an AI learning companion available as a side drawer in the workspace and a floating assistant across the app, giving contextual explanations and debugging help with conversation history.
+- **BitBuddy** — an AI learning companion available as a side drawer in the workspace and a floating assistant across the app, giving contextual explanations and debugging help with saved conversation history. It opens with a personalised overview drawn from the user's own dashboard data, and can answer open-ended coding questions, not just career ones.
 
 ### Practice & Assessment
 - **Auto-generated quizzes** — subtopic quizzes generated from what the user is actually studying.
@@ -141,6 +141,28 @@ A focused, distraction-free interview room — speak your answer or type it, wit
 
 <p align="center">
   <img src="docs/screenshots/interview-session.png" alt="BitCareer live AI mock interview session with the interviewer avatar, spoken question, and push-to-talk response bar" width="900"/>
+</p>
+
+---
+
+### Ask BitBuddy
+
+BitBuddy opens with a personalised career overview pulled straight from the user's dashboard analysis, plus daily AI insights and suggested questions to get the conversation started.
+
+<p align="center">
+  <img src="docs/screenshots/bitbuddy-overview.png" alt="BitBuddy AI career overview panel showing career goal, readiness percentage, strongest skill, biggest opportunity, and today's AI insights" width="900"/>
+</p>
+
+It can also reach beyond career coaching — here it's asked to generate a `pytest` test file, and responds with installation steps and working test code, syntax-highlighted inline.
+
+<p align="center">
+  <img src="docs/screenshots/bitbuddy-code-help.png" alt="BitBuddy generating a pytest test file with syntax-highlighted code blocks and setup instructions" width="900"/>
+</p>
+
+Every conversation is saved to a chat history sidebar, and BitBuddy can reason over the user's own rank data — here formatting the top 5 skill domains into a clean markdown table on request.
+
+<p align="center">
+  <img src="docs/screenshots/bitbuddy-ranks-table.png" alt="BitBuddy chat history sidebar and a markdown table of the user's top 5 skill ranks by domain, rank tier, and stars" width="900"/>
 </p>
 
 ## Project Highlights
