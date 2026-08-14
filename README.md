@@ -99,6 +99,30 @@ This repository showcases the project's features, design, and scope — without 
 | Document Processing | PDF parsing for resume ingestion |
 | Integrations | GitHub API |
 
+## Architecture
+
+BitCareer follows a decoupled full-stack architecture:
+
+```
+React SPA
+    ↓
+Axios / REST APIs
+    ↓
+Django REST Framework
+    ↓
+Domain Services
+    ↓
+PostgreSQL
+    ↓
+Gemini / GitHub API / Docker Sandbox
+```
+
+The frontend is organized around reusable React components, Context Providers, feature modules, and API service layers.
+
+The backend uses Django domain applications with DRF APIs, service-layer business logic, JWT authentication, and PostgreSQL persistence.
+
+User code execution is isolated inside ephemeral Docker containers rather than executing directly on the application server.
+
 ## Screenshots
 
 ### Career Dashboard
